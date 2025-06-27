@@ -50,6 +50,7 @@ public class Qes1_13 {
 		System.out.println("文字列"+letter);
 		System.out.println("文字列型"+message);
 		System.out.println("ブーリアン型"+isActive);
+		// 出力
 		
 
 	}
