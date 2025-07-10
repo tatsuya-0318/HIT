@@ -43,6 +43,26 @@ public class Qes1_13 {
 		
 		//ここまででQ1の内容。
 		
+		
+		 age = 25 ;
+		 
+		 temperature = 120;
+		 
+		 score = 85000;
+		 
+		 population = 125000000L ;
+		 
+		 height = 170.5f ;
+		 
+		 weight = 65.3 ;
+		 
+		 letter = 'A' ;
+		 
+		 message = "こんにちは" ;
+		 
+		 isActive = true ;
+		 
+		 //ここまででQ2の内容。
 
 	}
 
