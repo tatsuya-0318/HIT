@@ -63,7 +63,82 @@ public class Qes1_13 {
 		 isActive = true ;
 		 
 		 //ここまででQ2の内容。
-
+		 
+		 byte age2 ;
+		 
+		 age2 = 10 ;
+		 
+		 byte age3 ;
+		 
+		 age3 = (byte)(age + age2);// byteはキャストが必要
+		 
+		 short temperature2 ;
+		 
+		 temperature2 = 100;
+		 
+		 short temperature3 ;
+		 
+		 temperature3 =(short)(temperature + temperature2) ;// shortもキャスト
+		 
+		 int score2 ;
+		 
+		 score2 = 1000 ;
+		 
+		 int score3 ;
+		 
+		 score3 = score + score2 ;
+		 
+		 long population2 ;
+		 
+		 population2 = 10000 ;
+		 
+		 long population3 ;
+		 
+		 population3 = population + population2 ;
+		 
+		 float height2 ;
+		 
+		 height2 = 9.5f ;
+		 
+		 float height3 ;
+		 
+		 height3 = height + height2 ;
+		 
+		 double weight2 ;
+		 
+		 weight2 = 10.5 ;
+		 
+		 double weight3 ;
+		 
+		 weight3 = weight + weight2 ;
+		 
+		 char letter2 ;
+		 
+		 letter2 = 'a' ;
+		 
+		 String letter3 ;
+		 
+		 letter3 = "" + letter + letter2 ; // char + char → intになるので Stringに変換
+		 
+		 String message2 ;
+		 
+		 message2 = "ハロー" ;
+		 
+		 String message3 ;
+		 
+		 message3 = message + message2 ;
+		 
+		 boolean isActive2 ;
+		 
+		 isActive2 = true ;
+		 
+		 boolean isActive3 ;
+		 
+		 isActive3 = isActive || isActive2 ;// 論理和（どちらかがtrueならtrue）
+		 
+		 //ここまででQ3の内容。
+		 
+		 
 	}
 
 }
