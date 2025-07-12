@@ -44,23 +44,23 @@ public class Qes1_13 {
 		//ここまででQ1の内容。
 		
 		
-		 age = 25 ;
+		 age = 0 ;
 		 
-		 temperature = 120;
+		 temperature = 0;
 		 
-		 score = 85000;
+		 score = 0;
 		 
-		 population = 125000000L ;
+		 population = 0L ;
 		 
-		 height = 170.5f ;
+		 height = 0.0f ;
 		 
-		 weight = 65.3 ;
+		 weight = 0.0 ;
 		 
-		 letter = 'A' ;
+		 letter = '\u0000' ;
 		 
-		 message = "こんにちは" ;
+		 message = null ;
 		 
-		 isActive = true ;
+		 isActive = false ;
 		 
 		 //ここまででQ2の内容。
 		 
