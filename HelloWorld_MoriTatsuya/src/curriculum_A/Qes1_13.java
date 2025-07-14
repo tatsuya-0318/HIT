@@ -138,6 +138,31 @@ public class Qes1_13 {
 		 
 		 //ここまででQ3の内容。
 		 
+		// 1. 11110 
+		 System.out.println(population3 + score3 + age3+ temperature3);
+		 
+		// 2. 20 
+		 System.out.println(age3 * 2);
+		 
+		// 3. a ハロー true
+		 System.out.println(letter2 + " " + message2 + " " + isActive2);
+		 
+		// 4. 11130
+		 System.out.println(population3 + score3 + temperature3 + age3 * 3 );
+		 
+		// 5. 1E+10
+		 double total = (double)population3 * score3 * age3 * temperature3;//10進数にするためにdouble型にキャストする。
+		 System.out.println(total);
+		 
+		// 6. 0.105
+		 System.out.println(weight2 / 100);
+		 
+		// 7. -90
+		 System.out.println(age3 - temperature3);
+		 
+		 
+		 //ここまででQ4の内容。
+		 
 		 
 	}
 
