@@ -21,6 +21,38 @@ public class Qes1_13 {
 		System.out.println("ハローJAVA"+(num+num1));
 		
 		//ここまででQ5の内容。
+		
+		String name;
+		
+		int age;
+		
+		float height;
+		
+		double weight;
+		
+		String food;
+		
+		name="山田太郎";
+		
+		age=18;
+		
+		height=170.5f;
+		
+		weight=62.2;
+		
+		food="寿司";
+		
+		System.out.println("初めまして"+name+"です。");
+		
+		System.out.println("年齢は"+age+"歳です。");
+		
+		System.out.println("身長は"+height+"cmです。");
+		
+		System.out.println("体重は"+weight+"kgです。");
+		
+		System.out.println("好きな食べ物は"+food+"です。");
+		
+		//ここまででQ6の内容。
 
 	}
 
