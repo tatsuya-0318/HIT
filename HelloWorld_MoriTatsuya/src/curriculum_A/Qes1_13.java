@@ -53,7 +53,20 @@ public class Qes1_13 {
 		System.out.println("好きな食べ物は"+food+"です。");
 		
 		//ここまででQ6の内容。
-
+		
+		double BMI;//小数点も表示させたいからdouble型。
+		
+		double height1;
+		
+		height1=height/100;//cmをmに変換する。
+		
+		BMI=weight/Math.pow(height1,2);//累乗を表すにはMath.pow(底,指数);を活用する。
+		
+		System.out.println("BMIは"+BMI+"です。");
+		
+		//ここまででQ7の内容。
+		
+		
 	}
 
 }
