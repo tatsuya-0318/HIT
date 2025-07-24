@@ -62,7 +62,9 @@ public class Qes1_13 {
 		
 		BMI=weight/Math.pow(height1,2);//累乗を表すにはMath.pow(底,指数);を活用する。
 		
-		System.out.println("BMIは"+BMI+"です。");
+		double BMI1=Math.round(BMI*10.0)/10.0;//四捨五入小数点第一にする。BMIを一度10倍してMath.roundで四捨五入してそのあと10で割って小数点第一にしてる。
+		
+		System.out.println("BMIは"+BMI1+"です。");
 		
 		//ここまででQ7の内容。
 		
