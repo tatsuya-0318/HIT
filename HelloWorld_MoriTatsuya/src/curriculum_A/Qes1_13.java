@@ -69,6 +69,39 @@ public class Qes1_13 {
 		//ここまででQ7の内容。
 		
 		
+		//再代入
+		name="鈴木一郎";
+		
+		age=24;
+		
+		height=168.5f;
+		
+		weight=64.2;
+		
+		food="オムライス";
+		
+		//BMIの計算
+		
+		height1=height/100;
+		
+		BMI=weight/Math.pow(height1,2);
+		
+		BMI1=Math.round(BMI*10.0)/10.0;
+		
+		//出力
+		System.out.println("初めまして"+name+"です。");
+		
+		System.out.println("年齢は"+age+"歳です。");
+		
+		System.out.println("身長は"+height+"cmです。");
+		
+		System.out.println("体重は"+weight+"kgです。");
+		
+		System.out.println("好きな食べ物は"+food+"です。");
+		
+		System.out.println("BMIは"+BMI1+"です。");
+		
+		//ここまででQ8の内容。
 	}
 
 }
