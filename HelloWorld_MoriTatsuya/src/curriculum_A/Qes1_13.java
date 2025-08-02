@@ -102,6 +102,32 @@ public class Qes1_13 {
 		System.out.println("BMIは"+BMI1+"です。");
 		
 		//ここまででQ8の内容。
+		
+		age = age + age;
+		
+		height = height + height;
+		
+		weight = weight + weight ;
+		
+		height1=height/100;
+		
+		BMI=weight/Math.pow(height1,2);
+		
+		BMI1=Math.round(BMI*100.0)/100.0;
+		
+		System.out.println("初めまして"+name+"です。");
+		
+		System.out.println("年齢は"+age+"歳です。");
+		
+		System.out.println("身長は"+height+"cmです。");
+		
+		System.out.println("体重は"+weight+"kgです。");
+		
+		System.out.println("好きな食べ物は"+food+"です。");
+		
+		System.out.println("BMIは"+BMI1+"です。");
+		
+		//ここまででQ9の内容。
 	}
 
 }
