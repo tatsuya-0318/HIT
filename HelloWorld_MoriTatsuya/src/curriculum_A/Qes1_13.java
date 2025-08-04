@@ -74,6 +74,8 @@ public class Qes1_13 {
 		
 		age=24;
 		
+		int ageQ8 = age;
+		
 		height=168.5f;
 		
 		weight=64.2;
@@ -109,25 +111,34 @@ public class Qes1_13 {
 		
 		weight = weight + weight ;
 		
-		height1=height/100;
+		height1 = height / 100;
 		
-		BMI=weight/Math.pow(height1,2);
+		BMI = weight / Math.pow(height1,2);
 		
-		BMI1=Math.round(BMI*100.0)/100.0;
+		BMI1 = Math.round(BMI*100.0) / 100.0;
 		
-		System.out.println("初めまして"+name+"です。");
+		System.out.println("初めまして" + name + "です。");
 		
-		System.out.println("年齢は"+age+"歳です。");
+		System.out.println("年齢は" + age + "歳です。");
 		
-		System.out.println("身長は"+height+"cmです。");
+		System.out.println("身長は" + height + "cmです。");
 		
-		System.out.println("体重は"+weight+"kgです。");
+		System.out.println("体重は" + weight + "kgです。");
 		
-		System.out.println("好きな食べ物は"+food+"です。");
+		System.out.println("好きな食べ物は" + food + "です。");
 		
-		System.out.println("BMIは"+BMI1+"です。");
+		System.out.println("BMIは" + BMI1 + "です。");
 		
 		//ここまででQ9の内容。
+		
+		boolean isOver25;
+		
+		isOver25 = ageQ8 >= 25;
+		
+		System.out.println(isOver25);
+		
+		//ここまででQ10の内容。
+		
 	}
 
 }
