@@ -149,6 +149,15 @@ public class Qes1_13 {
 		
 		//ここまででQ11の内容。
 		
+		int ageInt = Integer.parseInt(ageStr);
+		
+		int heightInt = (int)Float.parseFloat(heightStr);
+		
+		System.out.println(ageInt);
+		
+		System.out.println(heightInt);
+		
+		//ここまででQ12の内容。
 	}
 
 }
