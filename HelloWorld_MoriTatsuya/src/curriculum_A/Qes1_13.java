@@ -139,6 +139,16 @@ public class Qes1_13 {
 		
 		//ここまででQ10の内容。
 		
+		String ageStr = Integer.toString(ageQ8) ;//int型→String型に変換カッコ内に値を入れてコロンで閉じる。
+		
+		String heightStr = Float.toString(height);//float型→String型に変換カッコ内に値を入れてコロンで閉じる。
+		
+		String weightStr = Double.toString(weight);//double型→String型に変換カッコ内に値を入れてコロンで閉じる。
+		
+		System.out.println(ageStr + heightStr + weightStr);
+		
+		//ここまででQ11の内容。
+		
 	}
 
 }
