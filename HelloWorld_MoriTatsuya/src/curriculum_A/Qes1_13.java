@@ -159,9 +159,10 @@ public class Qes1_13 {
 		
 		//ここまででQ12の内容。
 		
-		boolean A = (ageInt == 25) || (heightInt >= 160);
+		boolean heightAge = (ageInt == 25) || (heightInt >= 160);
 		
-		System.out.println(A);
+		
+		System.out.println(heightAge);
 		
 		//ここまででQ13の内容。
 	}
