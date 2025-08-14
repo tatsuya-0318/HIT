@@ -13,26 +13,18 @@ public class Qes1_3 {
 			
 			String input = sc .nextLine();// コンソールから1行取得（nullは通常来ない）
 			
-				if (input == null || input.trim().isEmpty()) {// ① 未入力（null or 空文字 or 空白だけ）
-					
-					System.out.println("名前を入力してください");
-					
-					return;
-				}
+			String userName = input.trim();
 			
-			String userName = input.trim(); // 前後の空白は無視したい想定でtrim
+			int displayLen = userName.codePointCount(0, userName.length());//UTF-16のコード単位ではなく見た目の文字数でカウント。
 			
-				if (userName.length() > 10 ) {// ② 文字数が10より大きい
-					
-					System.out.println("名前を10文字以内にしてください");
-					
-					return;
-				}
-
-			System.out.println("ユーザー名「 " + userName + " 」を登録しました");// ③ 正常
+			if (userName.isEmpty()) {//userName.isEmpty()：空文字（長さ0）かをチェック。
+                System.out.println("名前を入力してください");
+            } else if (displayLen > 10) {
+                System.out.println("名前を10文字以内にしてください");
+            } else {
+                System.out.println("ユーザー名「 " + userName + " 」を登録しました");
+            }
 		}
-	
-
 	}
 
 }
