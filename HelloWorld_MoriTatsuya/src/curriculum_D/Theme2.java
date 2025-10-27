@@ -2,21 +2,16 @@ package curriculum_D;
 
 public class Theme2 {
 	
-	/*
-	 
-	下記がコンソールに出力されるように作成してください
-	
-		こんにちは！ここは日本です！
-		この寿司はうまい
-		寿司は和食です
-		今の現在日時は2023/03/09 10:23:39です
-
-	【条件】
-		・JavaProjectを新規作成し、実行用のpackageと処理用のpackageを作成してください。
-		・適切なファイルにフィールドで変数を必要な数作ってください。
-		・thisを使って作成してください。
-		・日時は今日の日付を取得してください。
+	public static void main(String[] args) {
 		
-  */
+		// Theme2_1クラスのインスタンスを生成（引数を渡す）
+		Theme2_1 japan = new Theme2_1("日本", "寿司", "和食");
+		
+		// 各メソッドを順番に呼び出す
+		japan.greeting();
+		japan.comment();
+		japan.info();
+		japan.showDateTime();
+	}
 
 }
