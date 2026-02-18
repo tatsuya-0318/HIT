@@ -3,9 +3,9 @@ package curriculum_F;
 import java.util.*;
 import curriculum_F.process.PrefectureService;
 
-public class main {
+public class Main {
 
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
