@@ -1,7 +1,8 @@
-package curriculum_F;
+package curriculum_f;
 
 import java.util.*;
-import curriculum_F.process.PrefectureService;
+
+import curriculum_f.process.PrefectureService;
 
 public class Main {
 

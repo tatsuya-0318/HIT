@@ -1,4 +1,4 @@
-package curriculum_F.process;
+package curriculum_f.process;
 
 import java.util.*;
 
