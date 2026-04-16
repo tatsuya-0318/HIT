@@ -14,8 +14,15 @@ class Person {
 	    this.weight = weight;
 	  }
 
-	  // ★ これが問題7の答え
+	  // BMIメソッド
 	  double bmi() {
 	    return this.weight / (this.height * this.height);
+	  }
+
+	  // ★ 問題8：printメソッド
+	  void print() {
+	    System.out.println("名前は" + this.name + "です");
+	    System.out.println("年は" + this.age + "です");
+	    System.out.println("BMIは" + this.bmi() + "です");
 	  }
 }
