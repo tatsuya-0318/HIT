@@ -1,11 +1,10 @@
 package curriculum_g;
 
 class Main {
-  public static void main(String[] args) {
+	  public static void main(String[] args) {
 
-    Person person1 = new Person("鈴木太郎", 20, 1.7, 60);
+	    Person person1 = new Person("鈴木太郎", 20, 1.7, 60);
 
-    // ★ ここを変更
-    person1.print();
-  }
+	    person1.print();
+	  }
 }

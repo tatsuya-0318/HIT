@@ -21,8 +21,8 @@ class Person {
 
 	  // ★ 問題9
 	  void print() {
-	    System.out.println("名前は" + this.name + "です");
-	    System.out.println("年は" + this.age + "です");
-	    System.out.println("BMIは" + this.bmi() + "です");
-	  }
+		  System.out.println("名前は" + this.name + "です");
+		  System.out.println("年は" + this.age + "です");
+		  System.out.println("BMIは" + String.format("%.2f", this.bmi()) + "です");
+	}
 }
