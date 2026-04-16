@@ -7,8 +7,10 @@ class Person {
 	  int age;
 	  double height;
 
-	  // コンストラクタ（←これが問題2）
+	  // コンストラクタ
 	  Person(String name, int age, double height) {
+
+	    // ←ここが問題3
 	    this.name = name;
 	    this.age = age;
 	    this.height = height;
