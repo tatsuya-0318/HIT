@@ -2,7 +2,7 @@ package curriculum_h;
 
 public class Person {
 
-  // ★ 問題1：クラスフィールド（static）
+  // クラスフィールド
   public static int count = 0;
 
   // インスタンスフィールド
@@ -17,6 +17,9 @@ public class Person {
     this.age = age;
     this.height = height;
     this.weight = weight;
+
+    // ★ 問題2（ここを追加）
+    count++;
   }
 
   // BMI
