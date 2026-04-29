@@ -18,18 +18,20 @@ public class Person {
     this.height = height;
     this.weight = weight;
 
-    // ★ 問題2（ここを追加）
     count++;
   }
 
-  // BMI
   public double bmi() {
     return this.weight / this.height / this.height;
   }
 
-  // 表示
   public void print() {
     System.out.println("名前は" + this.name + "です");
     System.out.println("年は" + this.age + "です");
+  }
+
+  // ★ ここが追加部分
+  public static void printCount() {
+    System.out.println("合計" + count + "人です");
   }
 }
