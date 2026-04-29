@@ -10,7 +10,7 @@ public class Main {
     Person person2 = new Person("山田花子", 22, 1.5, 40);
     person2.print();
 
-    // クラスメソッド呼び出し
+    // ★ 問題6（これを追加）
     Person.printCount();
   }
 }
