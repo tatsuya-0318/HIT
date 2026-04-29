@@ -30,7 +30,7 @@ public class Person {
     System.out.println("年は" + this.age + "です");
   }
 
-  // ★ ここが追加部分
+  // ★ 問題5（ここが答え）
   public static void printCount() {
     System.out.println("合計" + count + "人です");
   }
