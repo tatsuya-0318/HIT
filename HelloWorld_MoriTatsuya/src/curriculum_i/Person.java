@@ -10,10 +10,21 @@ public class Person {
   private double height;
   private double weight;
 
-  // ★ 修正（ここ！）
+  // ★ ① フルバージョン（既存）
   public Person(String firstName, String lastName, int age, double height, double weight) {
     this.firstName = firstName;
-    this.lastName = lastName; // ← 追加
+    this.lastName = lastName;
+    this.age = age;
+    this.height = height;
+    this.weight = weight;
+
+    count++;
+  }
+
+  // ★ ② 追加（問題2）
+  public Person(String firstName, int age, double height, double weight) {
+    this.firstName = firstName;
+    this.lastName = ""; // ← lastNameなし
     this.age = age;
     this.height = height;
     this.weight = weight;
