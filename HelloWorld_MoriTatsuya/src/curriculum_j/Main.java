@@ -14,3 +14,4 @@ public class Main {
     person2.buy(bicycle);
   }
 }
+
